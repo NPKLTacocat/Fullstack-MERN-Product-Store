@@ -1,7 +1,13 @@
+import { Container } from "@chakra-ui/react";
 import React from "react";
 
 const create = () => {
-  return <div>Create</div>;
+  const [newProduct, setNewProduct] = React.useState({
+    name: "",
+    price: "",
+    image: "",
+  });
+  return <Container maxW={"sm"}>Create</Container>;
 };
 
 export default create;
