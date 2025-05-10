@@ -4,6 +4,7 @@ import Create from "./pages/create";
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
 import { useColorModeValue } from "./components/ui/color-mode";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
       </Routes>
+      <Toaster />
     </Box>
   );
 }

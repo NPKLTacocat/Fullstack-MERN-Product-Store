@@ -25,7 +25,7 @@ const Navbar = () => {
           bgGradient={"to-r"}
           gradientFrom={gradientColorFrom}
           gradientTo={gradientColorTo}
-          borderRadius={8}
+          rounded={"lg"}
           paddingLeft={2}
           paddingRight={2}
           h={10}
@@ -39,7 +39,7 @@ const Navbar = () => {
               bgGradient={"to-l"}
               gradientFrom={gradientColorFrom}
               gradientTo={gradientColorTo}
-              borderRadius={8}
+              rounded={"lg"}
               h={10}
               w={10}
               color={textColor}
@@ -55,7 +55,7 @@ const Navbar = () => {
             bgGradient={"to-l"}
             gradientFrom={gradientColorFrom}
             gradientTo={gradientColorTo}
-            borderRadius={8}
+            rounded={"lg"}
             h={10}
             w={10}
             color={textColor}
