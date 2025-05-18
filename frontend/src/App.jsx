@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import { Route, Routes } from "react-router-dom";
 import Create from "./pages/create";
-import Home from "./pages/home";
-import Navbar from "./components/navbar";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 import { useColorModeValue } from "./components/ui/color-mode";
 import { Toaster } from "./components/ui/toaster";
 

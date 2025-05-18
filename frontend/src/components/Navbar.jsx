@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaRegSquarePlus } from "react-icons/fa6";
 import { MdOutlineLightMode } from "react-icons/md";
-import { useColorMode, useColorModeValue } from "../components/ui/color-mode";
+import { useColorMode, useColorModeValue } from "./ui/color-mode";
 const Navbar = () => {
   const { toggleColorMode } = useColorMode();
   const textColor = useColorModeValue("white", "black");
