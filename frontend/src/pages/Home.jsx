@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, VStack, Text, SimpleGrid } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useProductStore } from "../store/product";
-import ProductCard from "../components/productcard";
+import ProductCard from "../components/ProductCard";
 
 const home = () => {
   const { fetchProducts, products } = useProductStore();
