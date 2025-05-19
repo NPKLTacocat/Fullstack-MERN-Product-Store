@@ -2,6 +2,10 @@
 
 A fullstack web application for managing products, built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to create, view, update, and delete products with a clean and responsive user interface.
 
+## Live Demo
+
+You can try the application live at: [https://fullstack-mern-product-store.onrender.com/](https://fullstack-mern-product-store.onrender.com/)
+
 ## Features
 
 - **Product Management**: Create, read, update, and delete product listings
